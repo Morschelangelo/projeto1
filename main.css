@@ -1,0 +1,135 @@
+/* Codigo Organizador do Formato da Pagina */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+    width: 1336px;
+    margin: 0 auto;
+    padding: 24px;
+ }
+
+/* Codigo do Cabeçalho */
+
+h1 {
+    background-color: black;
+}
+
+header {
+    font-family: "Orbitron", sans-serif;
+    font-size: 12px;
+    padding: 72px 0;
+    background-image: url(imagens/headerimagem2.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(201, 201, 201);
+    transition: 0.75s;
+    user-select: none;
+}
+
+header:hover {
+    padding: 72px 0;
+    background-image: url(imagens/headerimagem.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid rgb(2, 138, 13);
+    color: rgb(255, 255, 255);
+}
+
+header nav li {
+    display: inline;
+    margin-left: 8px;
+}
+
+header nav li a {
+    background-color: black;
+    padding: 4px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Codigo do Centro */
+
+body {
+  background-image: url(imagens/backgroundsite.gif);
+  background-size: cover;
+  background-position: center;
+  user-select: none;
+}
+
+section {
+    font-family: "Gafata", sans-serif;
+    opacity: 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: rgb(255, 255, 255);
+    transition: 1.0s;
+    border: 2px solid rgb(0, 0, 0);
+    text-align: center;
+    user-select: none;
+ }
+
+section:hover {
+    opacity: 255;
+    color: rgb(211, 210, 210);
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgb(2, 138, 13);
+ }
+
+.coolemoji {
+    opacity: 0;
+    transition: 0.25s;
+ }
+
+.coolemoji:hover {
+    opacity: 255;
+    padding: 100px 100;
+ }
+
+ /* Codigo de Ação/Estrategia */
+
+ .articles {
+    display: flex;
+ }
+
+ .actiontitle {
+    text-align: center;
+    padding: 10px;
+ }
+
+  /* Codigo de Contatos */
+
+form input,
+form textarea,
+form button {
+    font-family: "Orbitron", sans-serif;
+    margin: 0 auto;
+    display: block;
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form button {
+    background-color: rgb(54, 136, 54);
+}
+
+form textarea {
+    resize: none;
+    height: 200px;
+}
+
+.descriçãocontato {
+    padding: 8px;
+}
